@@ -2,34 +2,34 @@
 APP PLANNING & DESIGN
 =========================
 
-1. PROJECT NAME & THEME
+1. humble space train & a very humble space train
 -------------------------
-- What is your app called, and what type of app is it?  
-- What style or vibe do you want users to experience?
-- What about your app will require a log-in structure?
+- What is your app called: humble space train, tra  
+- What style or vibe do you want users to experience?: cosmic 
+- What about your app will require a log-in structure?: to login to your humble space train space
 
 2. CORE FUNCTIONALITY
 -------------------------
-- What are the essential features your app must have?  
+- What are the essential features your app must have?: a login then a giant photo of humble space train 
 - What optional features could make your app more interactive or personalized?
 
 3. SECRET OR PERSONALIZED CONTENT
 
 -------------------------
-- What content will users see after logging in?  
-- Will this content change depending on who is using the app (admin, user, special user?)
+- What content will users see after logging in?: a giant humble space train and their name
+- Will this content change depending on who is using the app (admin, user, special user?): everybody gets their own name next to humble space train
 
 4. USER EXPERIENCE (UX) DESIGN
 -------------------------
-- How should your app look and feel?
-- How will users navigate between pages?
+- How should your app look and feel?: Similar to a trip advisor to book trip on the humble space train
+- How will users navigate between pages?: there is one page
 
 5. SECURITY FEATURES
 -------------------------
-- What password and authentication rules will you enforce?  
-- How will you protect secret pages from unauthorized access?
+- What password and authentication rules will you enforce?: you will have a preset password and your humble space train will be there 
+- How will you protect secret pages from unauthorized access?: private emails for passwrod
 
 6. OPTIONAL CREATIVE ENHANCEMENTS
 -------------------------
-- What customization or fun features could users enjoy?
-- Are there interactive elements, like games, quizzes, or badges, you could include?
+- What customization or fun features could users enjoy? : their own humble space train
+- Are there interactive elements, like games, quizzes, or badges, you could include? maybe once you book three trips you get a vip club
