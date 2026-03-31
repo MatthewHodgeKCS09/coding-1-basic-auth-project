@@ -2,7 +2,11 @@
 APP PLANNING & DESIGN
 =========================
 
+<<<<<<< HEAD
 1. humble space train & a very humble space train
+=======
+1. Humble space train & THEME
+>>>>>>> 8b7dfed (owen man)
 -------------------------
 - What is your app called: humble space train, tra  
 - What style or vibe do you want users to experience?: cosmic 
