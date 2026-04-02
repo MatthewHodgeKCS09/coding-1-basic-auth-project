@@ -1,4 +1,4 @@
-from flask import Flask, request, redirect, url_for, render_template_string, session
+from flask import Flask, request, redirect, url_for, render_template, render_template_string, session
 import sqlite3
 import bcrypt
 
@@ -62,6 +62,7 @@ button {
 """
 
 login_page = f"""{base_style}
+<img src="{{ url_for('static', filename='images/space.png') }}">
 <div class="card">
 <h2>Login</h2>
 <form method="POST">
