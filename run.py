@@ -1,11 +1,20 @@
 from flask import Flask, request, redirect, url_for, render_template, render_template_string, session
 import sqlite3
 import bcrypt
+import re
 
 app = Flask(__name__)
 app.secret_key = "supersecretkey"
 
 # ---------- DATABASE SETUP ----------
+def is_valid_password(password):
+    if (re.search(r"[A-Z]", password) and   # uppercase
+        re.search(r"[a-z]", password) and   # lowercase
+        re.search(r"[0-9]", password) and   # number
+        re.search(r"[^A-Za-z0-9]", password)):  # special char
+        return True
+    return False
+
 def get_db():
     conn = sqlite3.connect("users.db")
     conn.row_factory = sqlite3.Row
@@ -130,6 +139,8 @@ def register():
 
         if not username or not password:
             error = "Fields cannot be empty"
+        elif not is_valid_password(password):
+            error = "Password must include uppercase, lowercase, number, and special character"
         else:
             conn = get_db()
             try:
